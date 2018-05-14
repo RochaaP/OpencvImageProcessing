@@ -6,9 +6,9 @@ import numpy as np
 face = cv2.CascadeClassifier('frontalface.xml')				
 eye = cv2.CascadeClassifier('eye.xml')
 
-cap = cv2.VideoCapture(0)					#noraml web camera
-#cap = cv2.VideoCapture(1)					#usb or second web camera
-#cap = cv2.VideoCapture("fileName")			#using video
+cap = cv2.VideoCapture(0)					#Default web camera
+#cap = cv2.VideoCapture(1)					#USB or second web camera
+#cap = cv2.VideoCapture('fileName')				#using separate video
 
 
 
