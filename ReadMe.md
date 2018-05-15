@@ -14,6 +14,9 @@ OpenCV-Python makes use of Numpy, which is a highly optimized library for numeri
         
         pip install opencv-python
         
+        pip install requests
+        
+        
  
  
  Then run python in commandline
@@ -23,5 +26,6 @@ OpenCV-Python makes use of Numpy, which is a highly optimized library for numeri
                import cv2
                import matplotlib
                import numpy
-               
+               import requests
+         
 Then ready to roll.
